@@ -1,0 +1,78 @@
+@import url('inter-ui.css');
+
+// colors
+@blue: #42C0FD; 
+@darkblue: #0074B1;
+@gray: #ccc;
+
+body {
+background-color: @gray;
+}
+.navbar{
+	margin-bottom: 0px!important;
+}
+
+.intro{
+	min-height: 100vh;
+	margin:0!important;
+	background-image: url('../img/noisy.png');
+	// h1 {font-size: 6.5em;}
+	p {font-size: 18px!important;}
+}
+.section{
+	background: #42C0FD; /* Old browsers */
+	background: -moz-linear-gradient(top,  #42C0FD 0%, #29A7E4 38%, #0F8DCA 78%, #0074B1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#42C0FD), color-stop(38%,#42C0FD), color-stop(78%,#29A7E4), color-stop(100%,#0F8DCA)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #42C0FD 0%,#29A7E4 38%,#0F8DCA 78%,#0074B1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #42C0FD 0%,#29A7E4 38%,#0F8DCA 78%,#0074B1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #42C0FD 0%,#29A7E4 38%,#0F8DCA 78%,#0074B1 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #42C0FD 0%,#29A7E4 38%,#0F8DCA 78%,#0F8DCA 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42C0FD', endColorstr='#0074B1',GradientType=0 ); /* IE6-9 */
+
+	h1, h2, h3, h4, h5, h6, p {color: #eee;}
+	min-height: 100vh;
+}
+
+.nav ul, li{
+	font-family: "Inter UI", sans-serif!important;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.navbar-brand{
+	font-family: "Inter UI", serif!important;
+}
+a{
+	color: @darkblue;
+	text-decoration: none;
+	&:hover{color:@gray; text-decoration: none;}
+}
+.markings{
+	background-image: url('../img/grunge_wall.png');
+	padding: 10%;
+}
+.desc{
+	background-color: @blue;
+	padding: 2.5%;
+	margin: 1%;
+	a {
+		color: @gray;
+		text-decoration: none;
+		&:hover{color: lighten(@gray, 10%); text-decoration: none;}
+	}
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Inter UI", Georgia, sans-serif;
+}
+
+p{
+  font-family: "Inter UI", Helvetica, sans-serif;
+  }
+
+ .object{
+ 	background-image: url('../img/noisy.png');
+ 	padding: 2.5%;
+ 	// margin: 1%;
+ 	margin-bottom: 2.5%;
+ 	margin-right: 1%;
+
+ }
